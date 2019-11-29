@@ -3,7 +3,7 @@ package com.example.booksearchbatch.dto;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -14,5 +14,5 @@ public class SearchRetrieveResponse {
     private String numberOfRecords;
     private String nextRecordPosition;
     private String extraResponseData;
-    private ArrayList<Record> records;
+    private List<Record> records;
 }
