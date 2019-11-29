@@ -26,10 +26,10 @@ public class Record {
         return creator;
     }
 
-    public String getLanguageFromRecordData() {
-        String language = "";
-        // TODO: recordDataからlanguageを取得
-        return language;
+    public String getSubjectFromRecordData() {
+        String subject = "";
+        // TODO: recordDataからsubjectを取得
+        return subject;
     }
 
     public String getPublisherFromRecordData() {
